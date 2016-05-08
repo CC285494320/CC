@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "对年龄数组排序时间复杂度0(n)", "对年龄数组排序时间复杂度0(n)\对年龄数组排序时间复杂度0(n).vcxproj", "{9B190614-FC3A-4548-961B-4A321C31A0D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B190614-FC3A-4548-961B-4A321C31A0D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9B190614-FC3A-4548-961B-4A321C31A0D8}.Debug|Win32.Build.0 = Debug|Win32
+		{9B190614-FC3A-4548-961B-4A321C31A0D8}.Release|Win32.ActiveCfg = Release|Win32
+		{9B190614-FC3A-4548-961B-4A321C31A0D8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
