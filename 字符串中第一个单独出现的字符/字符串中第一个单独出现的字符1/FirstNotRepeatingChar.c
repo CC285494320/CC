@@ -18,6 +18,6 @@ char Find_c(const char *str){
 	return 0;
 }
 int main(){
-	char arr[] = "bbcgcryry";
+	char arr[] ="qqabvbv";
 	printf("%c\n", Find_c(arr));
 }

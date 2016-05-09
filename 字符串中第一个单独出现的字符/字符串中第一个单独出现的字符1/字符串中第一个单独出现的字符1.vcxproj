@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DAB0CD2F-DA0B-4AF8-9DF7-B9D274690C47}</ProjectGuid>
+    <ProjectGuid>{B3394CA2-F4F1-4F7D-B355-E8F729CC0F07}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>字符串中第一个单独出现的字符</RootNamespace>
+    <RootNamespace>字符串中第一个单独出现的字符1</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="源.c" />
+    <ClCompile Include="FirstNotRepeatingChar.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
