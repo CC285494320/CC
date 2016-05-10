@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-
 int Min_num(int arr[], int index1, int index2){
 	int min = arr[index1];
 	index1 = index1 + 1;
