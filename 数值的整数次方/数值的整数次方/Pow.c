@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<math.h>
 #define ACCURACY 0.0000001
-//0表示结果正常,1表示异常
+
 int flag = 0;
-int Equal(double num1,double num2)
+int Equal(double num1, double num2)
 {
-	if ( (num1 - num2 > -ACCURACY) && (num1 - num2 < ACCURACY) )
+	if ((num1 - num2 > -ACCURACY) && (num1 - num2 < ACCURACY))
 	{
 		return 1;
 	}
@@ -26,8 +26,8 @@ double PowExponent_1(double base, int exponent)
 
 double PowExponent_2(double base, int exponent)
 {
-	
-	if ( exponent== 0)
+
+	if (exponent == 0)
 	{
 		return 1.0;
 	}
@@ -35,7 +35,7 @@ double PowExponent_2(double base, int exponent)
 	{
 		return base;
 	}
-	double ret = PowExponent_2(base, exponent >>1);
+	double ret = PowExponent_2(base, exponent >> 1);
 	ret *= ret;
 	if (exponent & 1)
 	{
@@ -48,7 +48,7 @@ double Pow(double base, int exponent)
 {
 	flag = 0;
 	double ret = 0.0;
-	if ( Equal(base, 0.0) && exponent <=0 )
+	if (Equal(base, 0.0) && exponent <= 0)
 	{
 		flag = 1;
 		return 0.0;
@@ -70,8 +70,8 @@ double Pow(double base, int exponent)
 
 int main()
 {
-	double ret = Pow(0,-3);
-	if ( flag==0 )
+	double ret = Pow(0, -3);
+	if (flag == 0)
 	{
 		printf("正常:%lf\n", ret);
 	}

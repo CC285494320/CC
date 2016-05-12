@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{19C26B37-A2D9-4B18-8316-6BE6FF843453}</ProjectGuid>
+    <ProjectGuid>{11AF36C8-7DB1-4193-A210-59426A1748E6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>数值的整数次方</RootNamespace>
   </PropertyGroup>
