@@ -2,7 +2,7 @@
 #include<math.h>
 #define ACCURACY 0.0000001
 
-//0表示结果正常,1表示异常
+ //0表示结果正常,1表示异常
 int flag = 0;
 int Equal(double num1,double num2)
 {
