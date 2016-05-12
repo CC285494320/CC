@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<math.h>
 #define ACCURACY 0.0000001
-
 int flag = 0;
 int Equal(double num1, double num2)
 {
@@ -70,7 +69,7 @@ double Pow(double base, int exponent)
 
 int main()
 {
-	double ret = Pow(0, -3);
+	double ret = Pow(4, 2);
 	if (flag == 0)
 	{
 		printf("Õý³£:%lf\n", ret);
