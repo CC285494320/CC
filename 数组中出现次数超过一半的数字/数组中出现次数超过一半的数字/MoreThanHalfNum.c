@@ -1,5 +1,5 @@
 #include<stdio.h>
-// 0Õı³£ ,1Òì³£
+
 int flag = 0;
 int Check(int number[],int length,int value)
 {
