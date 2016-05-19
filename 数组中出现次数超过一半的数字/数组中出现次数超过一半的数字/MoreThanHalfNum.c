@@ -59,7 +59,7 @@ int MoreThanHalfNum(int number[],int length)
 
 int main()
 {
-	int arr[] = { 1,2};
+	int arr[] = { 1, 2£¬2, 3, 2 };
 	int ret = MoreThanHalfNum(arr, sizeof(arr) / sizeof(arr[0]));
 	if (flag==0)
 		printf("%d\n",ret);
