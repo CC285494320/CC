@@ -39,7 +39,7 @@ int main()
 {
 	int num1 = 0; 
 	int num2 = 0;
-	int arr[] = { 1, -2, 1, -2, 3, 6, 3, 6 };
+	int arr[] = { 1, 2, 1, 4, 3, 6, 3, 6 };
 	int size = sizeof(arr) / sizeof(arr[0]);
 	FindNumber(arr,size,&num1,&num2);
 	printf("num1=%d,num2=%d\n", num1, num2);
