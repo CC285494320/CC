@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<assert.h>
-int Findindex(num)
+int Findindex(int num)
 {
 	int i = 0;
 	for (i=0; i < 8 * sizeof(int); i++)
