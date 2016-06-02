@@ -7,16 +7,7 @@ void Print(int start, int end)
 	}
 	printf("\n");
 }
-//int FindSum(int start,int end)
-//{
-//	int sum = 0;
-//	while (start <= end)
-//	{
-//		sum += start;
-//		start++;
-//	}
-//	return sum;
-//}
+
 void PrintAllContinuousSequence(int sum)
 {
 	int start = 1;
