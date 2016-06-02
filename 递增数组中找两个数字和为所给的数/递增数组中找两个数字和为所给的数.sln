@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "递增数组中找两个数字和为所给的数", "递增数组中找两个数字和为所给的数\递增数组中找两个数字和为所给的数.vcxproj", "{A78038A6-9195-4518-A44F-FDC0B1995514}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A78038A6-9195-4518-A44F-FDC0B1995514}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A78038A6-9195-4518-A44F-FDC0B1995514}.Debug|Win32.Build.0 = Debug|Win32
+		{A78038A6-9195-4518-A44F-FDC0B1995514}.Release|Win32.ActiveCfg = Release|Win32
+		{A78038A6-9195-4518-A44F-FDC0B1995514}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
