@@ -21,14 +21,14 @@ public:
 			strcpy(_Pdata, str);
 		}
 	}
-	//拷贝
+	
 	String(const String& Str)
 	{
 		_Pdata = Str._Pdata;
 		++GetRef();
 	}
 
-	//赋值
+	
 	String& operator=(const String& Str)
 	{
 		if (_Pdata != Str._Pdata)
@@ -40,7 +40,7 @@ public:
 		return *this;
 	}
 
-	//重载[] _1
+	
 	char& operator[](int index)
 	{
 		assert(index >= 0);
@@ -54,14 +54,14 @@ public:
 		}
 		return _Pdata[index];
 	}
-	//重载[] _2
+	
 	const char& operator[](int index)const
 	{
 		assert(index >= 0);
 		return _Pdata[index];
 
 	}
-	//析构
+	
 	~String()
 	{
 		cout << " 析构" << endl;
