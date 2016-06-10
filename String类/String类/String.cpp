@@ -64,7 +64,6 @@ public:
 	
 	~String()
 	{
-		cout << " Îö¹¹" << endl;
 		Reverse();
 
 	}
@@ -84,7 +83,6 @@ private:
 	{
 		if (--GetRef() == 0)
 		{
-			cout << "de" << endl;
 			delete[](_Pdata - 4);
 		}
 	}
